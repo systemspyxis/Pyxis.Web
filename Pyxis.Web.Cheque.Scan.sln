@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1022
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyxis.Web.Cheque.Scan", "Pyxis.Web.Cheque.Scan\Pyxis.Web.Cheque.Scan.csproj", "{152F0F8C-E930-4BF7-A542-1EC3AEA0298E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pyxis.Web.Cheque.Scan", "Pyxis.Web.Cheque.Scan\Pyxis.Web.Cheque.Scan.csproj", "{152F0F8C-E930-4BF7-A542-1EC3AEA0298E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pyxis.Core", "Pyxis.Core\Pyxis.Core.csproj", "{D949B3F1-248A-434E-A1C5-7F84986EBB58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{152F0F8C-E930-4BF7-A542-1EC3AEA0298E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{152F0F8C-E930-4BF7-A542-1EC3AEA0298E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{152F0F8C-E930-4BF7-A542-1EC3AEA0298E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D949B3F1-248A-434E-A1C5-7F84986EBB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D949B3F1-248A-434E-A1C5-7F84986EBB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D949B3F1-248A-434E-A1C5-7F84986EBB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D949B3F1-248A-434E-A1C5-7F84986EBB58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
