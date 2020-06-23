@@ -129,7 +129,7 @@ namespace Pyxis.Web.Cheque.Scan.Classes
             Csd.ParSet(CSDP.WINDOW, 0);
             //MICRCode = new List<string>();
             Csd.StartScan();
-            Image img = null;
+
             CEIIMAGEINFO rr = new CEIIMAGEINFO();
             rr.cbSize = ScanUtility.GetUnmanagedSize(rr);
             rr.lXResolution = 30;

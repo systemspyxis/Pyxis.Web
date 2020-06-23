@@ -14,7 +14,9 @@ namespace Pyxis.Core.Models
         public decimal amount { get; set; }
         public string payeeName { get; set; }
         public string narration { get; set; }
-        public string Images { get; set; }
+        public string frontTiff { get; set; }
+        public string frontJpeg { get; set; }
+        public string backJpeg { get; set; }
         public string depositorsAccount { get; set; }
         public string depositorsBranch { get; set; }
         public string depositorsNarration { get; set; }
@@ -25,6 +27,7 @@ namespace Pyxis.Core.Models
         public string transactionAuthorisedDate { get; set; }
         public string transactionexportDate { get; set; }
         public string stage { get; set; }
-    
+        public string modelID { get; set; }
+
     }
 }

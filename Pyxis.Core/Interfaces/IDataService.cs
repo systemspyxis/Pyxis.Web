@@ -1,4 +1,5 @@
-﻿using Pyxis.Core.Models;
+﻿using Newtonsoft.Json.Linq;
+using Pyxis.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,10 @@ namespace Pyxis.Core.Interfaces
 {
     public interface IDataService
     {
-        int SaveModel(List<PyxisModel> model);
-        int updateModel(List<PyxisModel> model);
-        List<PyxisModel> QueryModel();
+        long SaveModel(List<JObject> model);
+        int updateModel(JObject model);
+        List<Cheque> QueryModel(string filter);
+        bool GenerateFiles();
+        
     }
 }
