@@ -20,9 +20,11 @@ namespace Pyxis.Core.Controllers
         }
         // GET: api/<controller>
         [HttpGet]
-        public IEnumerable<string> Get()
+        [Produces("application/json")]
+        public ActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var res = AuthService.GetUsers();
+            return new JsonResult(res);
         }
 
         // GET api/<controller>/5

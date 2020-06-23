@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
+using Pyxis.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace Pyxis.Core.Interfaces
     public interface IAuthenticationService
     {
         long CreateUser(JObject user);
+        List<pyxUser> GetUsers();
     }
 }
